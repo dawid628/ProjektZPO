@@ -69,7 +69,6 @@ C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\ProjektZPO.Raz
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -165,3 +164,5 @@ C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Areas\Id
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
 C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Pages\AdvertAdding.cshtml.g.cs
+C:\Users\User\source\repos\ProjektZPO\ProjektZPO\obj\Debug\net5.0\Razor\Pages\AdvertSearching.cshtml.g.cs

@@ -26,13 +26,16 @@ a {
 
 /* Sticky footer styles
 -------------------------------------------------- */
+body {
+    font-family: 'Sono', sans-serif;
+}
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .border-top {
@@ -68,4 +71,47 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+.main-button {
+    -webkit-box-flex: 1 1 auto;
+    -moz-box-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 180%;
+    border: solid darkgray 1px;
+    margin-left: 5%;
+    background-color: lightgrey;
+}
+    .main-button:hover {
+        background-color: darkgray;
+    }
+.button-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    
+}
+.h1-logo {
+ font-weight: 600;
+}
+.form-label {
+    margin-top: 20px;
+}
+.form-textarea {
+    resize: none;
+    
+}
+.form-button{
+    margin-top: 15px;
+    border: solid darkgrey 1px;
 }

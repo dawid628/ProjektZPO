@@ -1,0 +1,37 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Nowe ogłoszenie";
+}
+<h1>Dodaj ogłoszenie</h1>
+
+@*<p>Use this page to detail your site's privacy policy.</p>*@
+<form>
+    <label class="form-label">Imię:</label>
+    <br />
+    <input />
+    <br />
+
+    <label class="form-label">Nazwisko:</label>
+    <br />
+    <input />
+    <br />
+
+    <label class="form-label">Cena za 1h:</label>
+    <br />
+    <input />
+    <br />
+
+    <p style="margin-top:15px;"><input type="checkbox" /> Do negocjacji</p>
+
+    <label class="form-label">Opis:</label>
+    <br />
+    <textarea class="form-textarea" cols="50" rows="10"></textarea>
+    <br />
+
+    <label class="form-label"></label>
+    <br />
+    <input type="file" accept="image/*, .jpg, .jpeg, .png">
+    <br />
+    <button class="form-button" type="submit">Dodaj ogłoszenie</button>
+</form>
