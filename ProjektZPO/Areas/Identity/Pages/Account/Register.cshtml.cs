@@ -46,6 +46,11 @@ namespace ProjektZPO.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            [StringLength(30, ErrorMessage = "{0} musi zawierać od {2} do {1} znaków.", MinimumLength = 5)]
+            [Display(Name = "Nazwa użytkownika")]
+            public string Name { get; set; }
+
+            [Required]
             [EmailAddress]
             [Display(Name = "Adres e-mail")]
             public string Email { get; set; }
@@ -74,7 +79,7 @@ namespace ProjektZPO.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var user = new IdentityUser { UserName = Input.Name, Email = Input.Email, EmailConfirmed = true };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
